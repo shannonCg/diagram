@@ -1,1 +1,376 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T04:10:18.980Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="BjzVddUOCaSrHar0RNRr" version="18.0.3" type="github"><diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">7Vzbcps6FP0aP3YGJK6PxzlJ+5DOdCadnmcFFMMpRh4s13G/viJIBiMby5cgpVZeYm0JAXst9l66wATezV8/V2iRfSUpLibASV8n8N8JAK7nROxfbdk0ltDjhlmVp7xRa3jKf2NudLh1lad4udOQElLQfLFrTEhZ4oTu2FBVkfVusxdS7J51gWZYMjwlqJCt/+UpzbjVdZy24gvOZxk/deTzimeU/JxVZFXy85WkxE3NHIlueNNlhlKy7pjg/QTeVYTQ5tf89Q4XtVuFx5rjHg7Ubi+5wiVVOSAMcZDE4YsbBymKIviJ9/ALFSvuhm/M5/xi6Ub4ZrnO5wVitwWnGZ0XzOiyn0mWF+kj2pBVffIlZX4QpSkrVZSDzC4KTt8chOvrqEtbR9SFAj3jYrr14h0pSMWq3vxY91SRn1tI6vO+kJI+oHle1Ez7gasUlYib+RkjVkRFPivZ74T5BrP+prKzxN3jiuLXjok77zMmc0yrDWvCa0OOI6e4x4vrli9xwG1ZhyqhoAriHJ1te27BYj84XorYAQm7xxoi4LiK+EkYyR46SJjjLuM+ArKP3L0+gu/ho0jykeSblpi1T9ZZTvHTAiV17ZpFup7LjODtQSooExnsEjnwZZCcPSAF74FRbDFSwcj1dYIksrRFqYcS3EXJD/bEu9FQAoEECk6ZyuFFUtGMzEiJivvWOt2FrQPRMVRY9vinFl4920NeX3CT5jsZxmdlXKbiiKRAy2WefM/ysqngh7lNqXPQ/5jSDS+jFSXM1N7IIyGLbTo7hybKKW9JVlWCh/MMu90ZPtgP76hGZJBZFS4QzX/t6tLr8iS0PNHCE8GBQaLE1+bJ26HMoWjTabAgeUmXnZ6/1YZO+vH255+HA+3DwebsR3MBLWG3d3ImhyPLYS0cjlViHTAm1okEbXkydqyDOmLd+TyRh82WJ6PwJPhYPJEHPpYnY/BEjIc/gnbqTa/EvWnZ4eYwHG4eDja/vtKC0DLe3Azq+uaExtgSxdzQCKAxRPGsJtdEFJWIAjxdRHGd8BmFAfYwhP5LHH+ymlxT5glVMk9kDE+sJtcUT4AKT64eT84S5UHQU+XusMzut/f94faeM9j+Yl0ukd7KcnGVEwCdt7+zH4emuK+/UZ8UbdMcErm8myeXyRHVuYmIGo0cUH3LeT1qU2X4ev3YeBbne5wMjomC+ML27jtz3u4Y0cR5z2g9IM/tNX3Ku03loZeO3aaitpdh9O4+Fbs9/vZNc/BUmGA/KMoojbZnzjtEbHl4pZHYEBhFbHAbxPZOhsmoPbtyzJZRysj8ebU8jpCJ729cjldvj9u+Nzqi0eCSI5F9qPY8VJq3WNs1zusLZjHZNCiYlSZGzFnj9A/pCnlmTaOu8CKjdIXstL8yBPqnwgSP56kRdUVwa7riZLx6ugLueazG0xWhfahUHqrt+p2eh+pGXoO8FCXN6k/lNUgb+rpzOzqHVNCuYhqyRC6W1gYVPm80rPC5+DBA4UO7Xnj9oaASUVTeGBGyxwSi2EU2TURReVdR5HQDiCIPrPicgRxpNM4ZBP1ZU71zBjfyjZfgVJiMGt6AG1kKvRilSCtKwKL0AQahKut6FqW9Q8/xUIL2GyvXF31CSA+KPpWP8Yh8ZIDog/ZDJnqIsv3M6CBRgDFEkefx+ehAHl5qHB1EjkmjA3AjmyrCU2EaMVeyYvuJ22bPcvsJYXj/Bw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-17T07:03:04.665Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="fAAv-oegHd1B9aYePjYn" version="18.0.3" type="github">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="2046" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-1" value="進程未執行過" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="40" width="1120" height="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-1" source="jiiuP7OG7V9hPEOmBm9L-26" target="jiiuP7OG7V9hPEOmBm9L-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="215" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="895" y="315" />
+              <mxPoint x="230" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-1" source="jiiuP7OG7V9hPEOmBm9L-20" target="jiiuP7OG7V9hPEOmBm9L-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-165" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jiiuP7OG7V9hPEOmBm9L-154">
+          <mxGeometry x="-0.8321" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-1" source="jiiuP7OG7V9hPEOmBm9L-159" target="jiiuP7OG7V9hPEOmBm9L-161">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="595" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="555" />
+              <mxPoint x="230" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-1" source="jiiuP7OG7V9hPEOmBm9L-15" target="jiiuP7OG7V9hPEOmBm9L-155">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-4" value="Scheduler" style="swimlane;html=1;startSize=20;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-1">
+          <mxGeometry y="20" width="730" height="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-5" value="結束流程" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-4">
+          <mxGeometry x="20" y="1710" width="117.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-15" value="以現在時間套入進程執行週期&lt;br&gt;(process.exec_cron)&lt;br&gt;算進程的下次執行時間" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-4">
+          <mxGeometry x="308.75" y="685" width="163.75" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-17" value="開始流程（每15秒執行一次）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-4">
+          <mxGeometry x="170" y="30" width="136.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-4" source="jiiuP7OG7V9hPEOmBm9L-20" target="jiiuP7OG7V9hPEOmBm9L-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="121.25" y="1045" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="79" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jiiuP7OG7V9hPEOmBm9L-18">
+          <mxGeometry x="-0.5537" y="1" relative="1" as="geometry">
+            <mxPoint x="30" y="-157" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-20" value="是否有查到資料" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-4">
+          <mxGeometry x="170" y="325" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-4" source="jiiuP7OG7V9hPEOmBm9L-161" target="jiiuP7OG7V9hPEOmBm9L-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-166" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jiiuP7OG7V9hPEOmBm9L-164">
+          <mxGeometry x="-0.6528" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-173" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-4" source="jiiuP7OG7V9hPEOmBm9L-161" target="jiiuP7OG7V9hPEOmBm9L-5">
+          <mxGeometry x="-0.8706" y="-5" relative="1" as="geometry">
+            <mxPoint x="121.25" y="1045" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-161" value="是否有查到資料" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-4">
+          <mxGeometry x="170" y="575" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-171" value="是否任務執行週期(process_task.exec_cron)為空" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-4">
+          <mxGeometry x="303.75" y="985" width="168.75" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-174" value="把進程的下次執行時間(process.next_exec_time)&lt;br&gt;當作任務的下次執行時間" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-4">
+          <mxGeometry x="530" y="1115.5" width="170" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-4" source="jiiuP7OG7V9hPEOmBm9L-171" target="jiiuP7OG7V9hPEOmBm9L-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-180" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jiiuP7OG7V9hPEOmBm9L-175">
+          <mxGeometry x="-0.5857" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-4" source="jiiuP7OG7V9hPEOmBm9L-178" target="jiiuP7OG7V9hPEOmBm9L-182">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="1270" />
+              <mxPoint x="388" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-178" value="&lt;span style=&quot;&quot;&gt;以現在時間套入任務執行週期&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;(process_task.exec_cron)&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;算任務的下次執行時間&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-4">
+          <mxGeometry x="110" y="1115.5" width="160.01" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-179" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-4" source="jiiuP7OG7V9hPEOmBm9L-171" target="jiiuP7OG7V9hPEOmBm9L-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-181" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jiiuP7OG7V9hPEOmBm9L-179">
+          <mxGeometry x="-0.4179" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-182" value="以任務的下次執行時間(process_task.next_exec_time)&lt;br&gt;為基準套用任務執行套用任務執行日期規則(process_task.task_date_rule)做計算，並把計算的時間格式套用任務執行日期格式(process_task.task_date_format)來得到任務的下次執行日期" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-4">
+          <mxGeometry x="284.38" y="1312" width="207.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-183" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-4" source="jiiuP7OG7V9hPEOmBm9L-174" target="jiiuP7OG7V9hPEOmBm9L-182">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="1270" />
+              <mxPoint x="388" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-22" value="DB" style="swimlane;html=1;startSize=20;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-1">
+          <mxGeometry x="730" y="20" width="390" height="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-26" value="查詢進程已啟用(process.is_enable)&lt;br&gt;且進程執行週期&lt;br&gt;(process.exec_cron)&lt;br&gt;不為空&lt;br&gt;且進程的下次執行時間(process.next_exec_time)為空" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-22">
+          <mxGeometry x="80" y="150" width="170" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-155" value="更新進程的下次執行時間(process.next_exec_time)&lt;br&gt;和下次執行日期(process.next_process_date_str)" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-22">
+          <mxGeometry x="80" y="830" width="220" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-159" value="查詢同一進程下的所有任務(process_task)" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-22">
+          <mxGeometry x="90" y="430" width="160" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-185" value="更新任務的下次執行時間(process_task.next_exec_time)&lt;br&gt;和下次執行日期(process_task.next_task_date_str)" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-22">
+          <mxGeometry x="80" y="1545" width="220" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-1" source="jiiuP7OG7V9hPEOmBm9L-17" target="jiiuP7OG7V9hPEOmBm9L-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-1" source="jiiuP7OG7V9hPEOmBm9L-155" target="jiiuP7OG7V9hPEOmBm9L-171">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="980" />
+              <mxPoint x="388" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-1" source="jiiuP7OG7V9hPEOmBm9L-182" target="jiiuP7OG7V9hPEOmBm9L-185">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="388" y="1530" />
+              <mxPoint x="920" y="1530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-1" source="jiiuP7OG7V9hPEOmBm9L-185" target="jiiuP7OG7V9hPEOmBm9L-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="1700" />
+              <mxPoint x="79" y="1700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-188" value="進程已執行過" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="1120" height="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-188" source="jiiuP7OG7V9hPEOmBm9L-216" target="jiiuP7OG7V9hPEOmBm9L-200">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="215" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="895" y="315" />
+              <mxPoint x="230" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-188" source="jiiuP7OG7V9hPEOmBm9L-200" target="jiiuP7OG7V9hPEOmBm9L-218">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-191" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jiiuP7OG7V9hPEOmBm9L-190">
+          <mxGeometry x="-0.8321" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-188" source="jiiuP7OG7V9hPEOmBm9L-218" target="jiiuP7OG7V9hPEOmBm9L-204">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="595" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="555" />
+              <mxPoint x="230" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-188" source="jiiuP7OG7V9hPEOmBm9L-196" target="jiiuP7OG7V9hPEOmBm9L-217">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-194" value="Scheduler" style="swimlane;html=1;startSize=20;rounded=0;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-188">
+          <mxGeometry y="20" width="730" height="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-195" value="結束流程" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-194">
+          <mxGeometry x="10" y="1940" width="117.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-196" value="以進程的下次執行時間(process.next_exec_time)套入進程執行週期&lt;br&gt;(process.exec_cron)&lt;br&gt;算進程的下次執行時間" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-194">
+          <mxGeometry x="308.75" y="685" width="163.75" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-197" value="開始流程（每15秒執行一次）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-194">
+          <mxGeometry x="170" y="30" width="136.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-194" source="jiiuP7OG7V9hPEOmBm9L-200" target="jiiuP7OG7V9hPEOmBm9L-195">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="121.25" y="1045" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="69" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-199" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jiiuP7OG7V9hPEOmBm9L-198">
+          <mxGeometry x="-0.5537" y="1" relative="1" as="geometry">
+            <mxPoint x="40" y="-226" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-200" value="是否有查到資料" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-194">
+          <mxGeometry x="170" y="325" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-201" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-194" source="jiiuP7OG7V9hPEOmBm9L-204" target="jiiuP7OG7V9hPEOmBm9L-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-202" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jiiuP7OG7V9hPEOmBm9L-201">
+          <mxGeometry x="-0.6528" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-203" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-194" source="jiiuP7OG7V9hPEOmBm9L-204" target="jiiuP7OG7V9hPEOmBm9L-195">
+          <mxGeometry x="-0.9146" y="-10" relative="1" as="geometry">
+            <mxPoint x="121.25" y="1045" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-204" value="是否有查到資料" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-194">
+          <mxGeometry x="170" y="575" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-205" value="是否任務執行週期(process_task.exec_cron)為空" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-194">
+          <mxGeometry x="340" y="985" width="168.75" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-206" value="把進程的下次執行時間(process.next_exec_time)&lt;br&gt;當作任務的下次執行時間" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-194">
+          <mxGeometry x="530" y="1120" width="170" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-207" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-194" source="jiiuP7OG7V9hPEOmBm9L-205" target="jiiuP7OG7V9hPEOmBm9L-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-208" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jiiuP7OG7V9hPEOmBm9L-207">
+          <mxGeometry x="-0.5857" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-194" source="jiiuP7OG7V9hPEOmBm9L-205" target="jiiuP7OG7V9hPEOmBm9L-225">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-212" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jiiuP7OG7V9hPEOmBm9L-211">
+          <mxGeometry x="-0.4179" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-213" value="以任務的下次執行時間(process_task.next_exec_time)&lt;br&gt;為基準套用任務執行套用任務執行日期規則(process_task.task_date_rule)做計算，並把計算的時間格式套用任務執行日期格式(process_task.task_date_format)來得到任務的下次執行日期" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-194">
+          <mxGeometry x="190" y="1500" width="207.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-194" source="jiiuP7OG7V9hPEOmBm9L-206" target="jiiuP7OG7V9hPEOmBm9L-213">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="1460" />
+              <mxPoint x="294" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-225" value="是否任務的下次執行時間(process.next_exec_time)比現在晚" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-194">
+          <mxGeometry x="202" y="1115" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-232" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-194" source="jiiuP7OG7V9hPEOmBm9L-227" target="jiiuP7OG7V9hPEOmBm9L-213">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="1420" />
+              <mxPoint x="294" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-227" value="&lt;span style=&quot;&quot;&gt;以&lt;/span&gt;任務的下次執行時間(process.next_exec_time)&lt;br&gt;&lt;span style=&quot;&quot;&gt;套入任務執行週期&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;(process_task.exec_cron)&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;算任務的下次執行時間&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-194">
+          <mxGeometry x="350" y="1270" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-228" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-194" source="jiiuP7OG7V9hPEOmBm9L-225" target="jiiuP7OG7V9hPEOmBm9L-227">
+          <mxGeometry x="0.2258" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-229" value="任務的下次執行時間(process.next_exec_time)不變" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-194">
+          <mxGeometry x="80" y="1270" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-230" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-194" source="jiiuP7OG7V9hPEOmBm9L-225" target="jiiuP7OG7V9hPEOmBm9L-229">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="1185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-231" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jiiuP7OG7V9hPEOmBm9L-230">
+          <mxGeometry x="0.0295" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-233" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-194" source="jiiuP7OG7V9hPEOmBm9L-229" target="jiiuP7OG7V9hPEOmBm9L-213">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="1420" />
+              <mxPoint x="294" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-188" source="jiiuP7OG7V9hPEOmBm9L-213" target="jiiuP7OG7V9hPEOmBm9L-219">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="1835" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="294" y="1720" />
+              <mxPoint x="920" y="1720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-188" source="jiiuP7OG7V9hPEOmBm9L-219" target="jiiuP7OG7V9hPEOmBm9L-195">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="1930" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="920" y="1930" />
+              <mxPoint x="69" y="1930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-215" value="DB" style="swimlane;html=1;startSize=20;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-188">
+          <mxGeometry x="730" y="20" width="390" height="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-216" value="查詢進程已啟用(process.is_enable)&lt;br&gt;且進程執行週期&lt;br&gt;(process.exec_cron)&lt;br&gt;不為空&lt;br&gt;且進程的下次執行時間(process.next_exec_time)比現在晚(&amp;lt;now())" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-215">
+          <mxGeometry x="80" y="150" width="170" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-217" value="更新進程的下次執行時間(process.next_exec_time)&lt;br&gt;和下次執行日期(process.next_process_date_str)" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-215">
+          <mxGeometry x="80" y="830" width="220" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-218" value="查詢同一進程下的所有任務(process_task)" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-215">
+          <mxGeometry x="90" y="430" width="160" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-219" value="更新任務的下次執行時間(process_task.next_exec_time)&lt;br&gt;和下次執行日期(process_task.next_task_date_str)" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="jiiuP7OG7V9hPEOmBm9L-215">
+          <mxGeometry x="80" y="1760" width="220" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-188" source="jiiuP7OG7V9hPEOmBm9L-197" target="jiiuP7OG7V9hPEOmBm9L-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiiuP7OG7V9hPEOmBm9L-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jiiuP7OG7V9hPEOmBm9L-188" source="jiiuP7OG7V9hPEOmBm9L-217" target="jiiuP7OG7V9hPEOmBm9L-205">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="980" />
+              <mxPoint x="424" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
