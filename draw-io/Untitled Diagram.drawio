@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T09:23:56.990Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="nxO_YuCsFagYdjnRsNIm" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-17T11:05:54.843Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="ObLUdy2QQXcJZTraDqJR" version="18.0.3" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         <mxCell id="gBekFUFuCe9R_9GA5LDx-16" value="從下次執行時間(process.next_exec_time)套入process.exec_cron規則算下次執行時間" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="270" y="510" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-8" value="開始流程（每分鐘）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
+        <mxCell id="77e6c97f196da883-8" value="開始流程（每15秒執行一次）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="210" y="50" width="136.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gBekFUFuCe9R_9GA5LDx-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-2" source="gBekFUFuCe9R_9GA5LDx-43" target="gBekFUFuCe9R_9GA5LDx-1">
@@ -87,7 +87,7 @@
         <mxCell id="gBekFUFuCe9R_9GA5LDx-30" value="下次執行時間(process.next_exec_time)更新為剛計算好新的下次執行時間" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="235" y="510" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="gBekFUFuCe9R_9GA5LDx-45" value="找未執行過或&lt;br&gt;下次執行時間比現在晚的進程" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="gBekFUFuCe9R_9GA5LDx-45" value="找未執行過或&lt;br&gt;下次執行時間比現在晚的已啟用進程" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="80" y="50" width="146.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gBekFUFuCe9R_9GA5LDx-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-1" source="gBekFUFuCe9R_9GA5LDx-30" target="gBekFUFuCe9R_9GA5LDx-1">
