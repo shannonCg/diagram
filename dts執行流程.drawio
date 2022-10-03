@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-10-03T08:01:33.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="NQWC_GrGb3fNnbODCr4A" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-03T08:52:16.818Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="g14-sjK6Yt8VXHnnxmQF" version="20.2.7" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="-wXGV9FdKNR8jGR-43K8-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="160" as="sourcePoint" />
+            <mxPoint x="340" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-wXGV9FdKNR8jGR-43K8-8" value="Scheduler" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="40" width="280" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXGV9FdKNR8jGR-43K8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wXGV9FdKNR8jGR-43K8-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="170" as="sourcePoint" />
+            <mxPoint x="140" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-wXGV9FdKNR8jGR-43K8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wXGV9FdKNR8jGR-43K8-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="320" as="sourcePoint" />
+            <mxPoint x="140" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHwzkVIhxY35iqRa4D00-3" value="讀排程設定檔，預先建立5分鐘內要執行的排程和任務" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="-wXGV9FdKNR8jGR-43K8-8">
+          <mxGeometry x="50" y="70" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nHwzkVIhxY35iqRa4D00-4" value="找出當前時間要執行的排程" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="-wXGV9FdKNR8jGR-43K8-8">
+          <mxGeometry x="50" y="220" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nHwzkVIhxY35iqRa4D00-5" value="新增要執行的排程(在zk要多節點紀錄)和任務(不動&lt;span style=&quot;font-size: 10px;&quot;&gt;，沿用scheduler新增task的寫法&lt;/span&gt;)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="-wXGV9FdKNR8jGR-43K8-8">
+          <mxGeometry x="50" y="380" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nHwzkVIhxY35iqRa4D00-25" value="分派可執行的任務或子任務給executor" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="-wXGV9FdKNR8jGR-43K8-8">
+          <mxGeometry x="50" y="530" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nHwzkVIhxY35iqRa4D00-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-wXGV9FdKNR8jGR-43K8-8" source="nHwzkVIhxY35iqRa4D00-5" target="nHwzkVIhxY35iqRa4D00-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHwzkVIhxY35iqRa4D00-2" value="設定排程&lt;br&gt;(新增排程和任務&lt;br&gt;修改排程時間&lt;br&gt;修改任務順序)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="110" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nHwzkVIhxY35iqRa4D00-11" value="Executor" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="40" width="280" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="nHwzkVIhxY35iqRa4D00-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nHwzkVIhxY35iqRa4D00-11" source="nHwzkVIhxY35iqRa4D00-17" target="nHwzkVIhxY35iqRa4D00-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHwzkVIhxY35iqRa4D00-19" value="任務執行成功或報錯，也要一並更新排程狀態(dts lib異動)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="nHwzkVIhxY35iqRa4D00-11">
+          <mxGeometry x="50" y="670" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nHwzkVIhxY35iqRa4D00-17" value="task需要自行處理時間格式(異動)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="nHwzkVIhxY35iqRa4D00-11">
+          <mxGeometry x="50" y="530" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nHwzkVIhxY35iqRa4D00-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nHwzkVIhxY35iqRa4D00-25" target="nHwzkVIhxY35iqRa4D00-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
